@@ -4,7 +4,8 @@
   "description": "Este repositorio forma parte de los cursos ofrecidos en Platzi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/siendomiguel/platzi-curso-asincronismo/issues"
   },
-  "homepage": "https://github.com/siendomiguel/platzi-curso-asincronismo#readme"
+  "homepage": "https://github.com/siendomiguel/platzi-curso-asincronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
