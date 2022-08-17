@@ -6,7 +6,7 @@ const postData = (urlApi, data) =>{
     method: 'POST',
     mode: 'cors',
     credentials: 'same-origin',
-    header: {
+    headers: {
       'Content-type': 'application/json'
     },
     body: JSON.stringify(data)
@@ -17,7 +17,7 @@ const postData = (urlApi, data) =>{
 const data = {
   "title": "PC Build",
   "price": 5984,
-  "description": "A description",
+  "description": "A description on product",
   "categoryId": 1,
   "images": ["https://placeimg.com/640/480/any"]
 }
